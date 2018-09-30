@@ -1,0 +1,66 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+/**
+  GLOBALS
+ */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/**
+  Dashboard
+ */
+#dashboard {
+  background-color: #c8c8c8;
+}
+
+.dashboard {
+  &__menu {
+    background-color: #fff;
+    height: 90vh;
+  }
+}
+
+
+ul {
+  list-style: none;
+}
+
+.prediction {
+  border: 1px solid #333;
+  padding: 10px;
+    &__team {
+      display: inline-block;
+    }
+  &__form {
+    &__create {
+      .form-group {
+        div {
+          label {
+            font-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn span.glyphicon {
+  opacity: 0;
+}
+.btn.active span.glyphicon {
+  opacity: 1;
+}
+
+/**
+  PAGE - NORMAL
+ */
+
+.page {
+  &__header {
+
+  }
+}
